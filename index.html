@@ -1,1 +1,104 @@
-<!DOCTYPE html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Marco Palestra - Designer & Tickets</title><style>body{background:#0a0e1a;color:#fff;font-family:sans-serif;padding:20px;max-width:600px;margin:auto}h1{font-size:36px;line-height:1.1}.green{color:#00ff88}.btn{background:#00ff88;color:#000;padding:14px 26px;border-radius:30px;text-decoration:none;display:inline-block;font-weight:bold;margin-top:14px}.card{background:#121a2e;border-radius:16px;padding:16px;margin-top:16px;border:1px solid #1e2a4a}.tag{background:#1e2a4a;color:#00ff88;padding:4px 10px;border-radius:10px;font-size:11px;display:inline-block;margin:3px}</style></head><body><p style="color:#00ff88;letter-spacing:2px;font-size:11px">JAMBO, I'M MARCO - 0729726108</p><h1>Web Designer<br><span class="green">& Mombasa Tickets</span></h1><p style="color:#9aa3b8">Kimana/Rift Valley - Websites + Tickets Mombasa→Nairobi</p><a class="btn" href="https://wa.me/254729726108">WhatsApp 0729726108</a><div class="card"><b>🚌 MARCO TICKETS</b><br><small style="color:#9aa3b8">Mombasa → Mtito Andei → Kibwezi → Makindu → Emali → Sultan Hamud → Salama → Makutano → Mlolongo → Nairobi - Book bila line!</small><br><span class="tag">M-Pesa 0729726108</span> <span class="tag">24/7</span></div><div class="card"><b>💊 Emmychem Pharmacy Kavuthu</b><br><small style="color:#9aa3b8">Pharmacy website - Till 3647861 - Done 2K</small><br><span class="tag">HTML</span> <span class="tag">Client Work</span></div><div class="card"><b>Marco Palestra</b><br><span style="color:#00ff88">Web Designer - Kimana</span><br><small style="color:#9aa3b8">📍 Kimana | 📞 0729726108 | Skills: HTML CSS</small><br><br><a class="btn" href="https://wa.me/254729726108?text=Habari%20Marco">Nipe Website 3000</a></div><p style="color:#444;text-align:center;margin-top:25px;font-size:11px">© 2026 marcopalestra12.github.io</p></body></html>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Marco Palestra - Designer & Tickets</title>
+<style>
+body{background:#0a0e1a;color:#fff;font-family:sans-serif;padding:18px;max-width:600px;margin:auto}
+h1{font-size:32px;line-height:1.1}
+.g{color:#00ff88}
+.btn{background:#00ff88;color:#000;padding:14px 22px;border-radius:30px;text-decoration:none;display:inline-block;font-weight:bold;margin-top:10px;border:none;width:100%;text-align:center;box-sizing:border-box}
+.btn-outline{background:transparent;color:#00ff88;border:2px solid #00ff88}
+.card{background:#121a2e;border-radius:16px;padding:16px;margin-top:14px;border:1px solid #1e2a4a}
+.tag{background:#1e2a4a;color:#00ff88;padding:4px 10px;border-radius:10px;font-size:11px;display:inline-block;margin:2px}
+input,select{width:100%;padding:12px;border-radius:10px;border:1px solid #1e2a4a;background:#0a0e1a;color:#fff;margin-top:8px;box-sizing:border-box}
+label{font-size:12px;color:#9aa3b8;margin-top:12px;display:block}
+.mpesa-box{background:#00ff88;color:#000;padding:14px;border-radius:12px;font-weight:bold;text-align:center;margin-top:10px}
+</style>
+</head>
+<body>
+<p style="color:#00ff88;letter-spacing:2px;font-size:11px">JAMBO, I'M MARCO - 0729726108</p>
+<h1>Web Designer<br><span class="g">& Mombasa Tickets</span></h1>
+<p style="color:#9aa3b8">Kimana - Websites + Mombasa→Nairobi Booking</p>
+<a class="btn" href="https://wa.me/254729726108" style="width:auto">WhatsApp 0729726108</a>
+
+<div class="card">
+<b>💰 LIPA NA M-PESA - 2 & 3</b>
+<div class="mpesa-box">
+M-PESA: 0729726108<br>
+<small>TILL: 3647861 - Emmychem / Marco</small>
+</div>
+<button class="btn btn-outline" onclick="copyMpesa()">📋 Copy M-Pesa Number</button>
+<a class="btn" href="tel:*334%23" style="margin-top:8px;background:#fff">📱 Fungua M-Pesa App *334#</a>
+<p style="font-size:11px;color:#9aa3b8;text-align:center;margin-top:8px">Lipa kisha screenshot tuma WhatsApp</p>
+</div>
+
+<div class="card">
+<b>🚌 BOOK TICKET - Mombasa to Nairobi</b>
+<p style="font-size:11px;color:#9aa3b8">Jaza form - itatuma direct WhatsApp yangu</p>
+
+<label>Jina lako</label>
+<input id="jina" placeholder="Marco Palestra">
+
+<label>Simu</label>
+<input id="simu" placeholder="0729...">
+
+<label>Kutoka</label>
+<select id="from">
+<option>Mombasa</option>
+<option>Mtito Andei</option>
+<option>Kibwezi</option>
+<option>Makindu</option>
+<option>Emali</option>
+<option>Sultan Hamud</option>
+<option>Salama</option>
+<option>Makutano</option>
+<option>Mlolongo</option>
+<option>Nairobi</option>
+</select>
+
+<label>Kwenda</label>
+<select id="to">
+<option>Nairobi</option>
+<option>Mombasa</option>
+<option>Mtito Andei</option>
+<option>Kibwezi</option>
+<option>Makindu</option>
+<option>Emali</option>
+<option>Sultan Hamud</option>
+<option>Salama</option>
+</select>
+
+<label>Tarehe</label>
+<input id="date" type="date">
+
+<button class="btn" onclick="bookTicket()">🎫 Book Sasa - Tuma WhatsApp</button>
+</div>
+
+<div class="card">
+<b>💊 Emmychem Pharmacy Kavuthu</b><br>
+<small style="color:#9aa3b8">Pharmacy website - Till 3647861 - 2K Project</small><br>
+<span class="tag">HTML</span> <span class="tag">Client Work</span>
+</div>
+
+<p style="color:#444;text-align:center;margin-top:20px;font-size:11px">© 2026 marcopalestra12.github.io - M-Pesa 0729726108</p>
+
+<script>
+function copyMpesa(){
+ navigator.clipboard.writeText("0729726108");
+ alert("M-Pesa 0729726108 Copied! Fungua M-Pesa ulipe.");
+}
+function bookTicket(){
+ let jina=document.getElementById('jina').value;
+ let simu=document.getElementById('simu').value;
+ let from=document.getElementById('from').value;
+ let to=document.getElementById('to').value;
+ let date=document.getElementById('date').value;
+ if(!jina||!simu){alert("Weka Jina na Simu!");return;}
+ let msg=`Habari Marco! Nataka Ticket%0A%0AJina: ${jina}%0ASimu: ${simu}%0AKutoka: ${from}%0AKwenda: ${to}%0ATarehe: ${date}%0A%0ANimelipa M-Pesa 0729726108. Naomba ticket.`;
+ window.open(`https://wa.me/254729726108?text=${msg}`,'_blank');
+}
+</script>
+</body>
+</html>
